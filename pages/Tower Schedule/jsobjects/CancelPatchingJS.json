@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "CancelPatchingJS",
+    "pageId": "Tower Schedule",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\trun: () => {\n\t\t//write code here\n\t\t//storeValue('mailsubject','Patching Worksheet Step9JS Executed: ' + PatchStepList.selectedItem.step_key + ' By:  ' + appsmith.user.username );\n\t\t\n\n\t//\tSetupPatchReleaseSched.run()\n\t\tSendIt.run();\n\t\tcloseModal('CancelPatching');\n\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "Tower Schedule_CancelPatchingJS",
+  "deleted": false,
+  "gitSyncId": "630d5e71a05c6205392c7cd5_636e7414a01871714d0d63d3"
+}

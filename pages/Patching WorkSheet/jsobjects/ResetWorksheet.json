@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "ResetWorksheet",
+    "pageId": "Patching WorkSheet",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\trun: () => {\n\t\t//write code here\n\t\tClear_patch_process_ledger.run();\n\t\tcloseModal('ResetWorkSheet');\n\t\tprocess_worksheet_vw.run();\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "Patching WorkSheet_ResetWorksheet",
+  "deleted": false,
+  "gitSyncId": "62d7105c4b3fcf0df1e0f316_62d9eb1c9762ae685f39a73c"
+}

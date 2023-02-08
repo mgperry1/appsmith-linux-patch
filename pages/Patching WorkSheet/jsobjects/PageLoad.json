@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "PageLoad",
+    "pageId": "Patching WorkSheet",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tsetvisibility: () => {\n\t\t//write code here\n\t\tif (['matt.g.perry@gsk.com', 'dushyant.x.rajpoot@gsk.com'].indexOf(appsmith.user.username) >= 0) {\n\t\t\t showAlert('You have the admmin role');\n\t\t\t //Container2.isVisible = false;\n\t\t\t\t\t\t storeValue('adminrole',true)\n\t\t\t\t }\n\t\telse {\n\t\t\t showAlert('You have the view role');\n\t\t\t {{appsmith.store.adminrole}}appsmith\n\t\t\t storeValue('adminrole',{})\n\t\t}\t\n    //do something\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "Patching WorkSheet_PageLoad",
+  "deleted": false,
+  "gitSyncId": "62d7105c4b3fcf0df1e0f316_62fa41c446ac47549078c68a"
+}

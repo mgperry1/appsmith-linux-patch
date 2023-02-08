@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "Step6JS",
+    "pageId": "Patching WorkSheet",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\trun: () => {\n\t\t//write code here\n\t\tstoreValue('playbookid','30');\n\t\tstoreValue('scheduletype','Current');\n\t\t//storeValue('mailsubject','Patching Worksheet Step9JS Executed: ' + PatchStepList.selectedItem.step_key + ' By:  ' + appsmith.user.username );\n\t\tstoreValue('mailsubject','Patching Worksheet Step Executed: 6 Registration ' + ' By:  ' + appsmith.user.username );\n\t\t//Running Linux Registration Package to setup the server list of what is ready to Patch for the Qtr\n\t\t//storeValue('mailbody','Patching Alert! Worksheet Step9JS : ' + PatchStepList.selectedItem.step_description + '. Executed By:  ' + appsmith.user.username);\t\t\n\t\tstoreValue('mailbody','Patching Alert! Worksheet Step 6 : Running Linux Registration Package to setup the server list of what is ready to Patch for the Qtr' + ' Executed By:  ' + appsmith.user.username);\t\t\n\t\tSchedulePatchPlaybook.run();\n\t\tInsertPatchStep.run();\n\t\t//SendIt.run();\n\t\tcloseModal('Step7');\n\t\tshowModal('sendmail');\n\t\tprocess_worksheet_vw.run();\n\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "Patching WorkSheet_Step6JS",
+  "deleted": false,
+  "gitSyncId": "62d7105c4b3fcf0df1e0f316_62db07d817b5b5373d32a617"
+}

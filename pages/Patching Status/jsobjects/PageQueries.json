@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "PageQueries",
+    "pageId": "Patching Status",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\trefresh: () => {\n\t\t//write code here\n\t\tTotalstats.run();\n\t\tSelectQuery.run();\n\t\tPatchingrunning.run();\n\t\t\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "Patching Status_PageQueries",
+  "deleted": false,
+  "gitSyncId": "62d7105c4b3fcf0df1e0f316_62e7cc9917b5b5373d32a701"
+}

@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "jobdetailJS",
+    "pageId": "PreCheck Awxbatch",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tshowJob: async () => {\n\t\t//use async-await or promises\n\t\tgetJobOutput.run();\n\t\tshowModal('JobDetail')\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "PreCheck Awxbatch_jobdetailJS",
+  "deleted": false,
+  "gitSyncId": "62d7105c4b3fcf0df1e0f316_62fa842946ac47549078c6f3"
+}

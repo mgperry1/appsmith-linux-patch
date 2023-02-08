@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "callSend",
+    "pageId": "Patching WorkSheet",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\trun: () => {\n\t\tSendIt.run();\n\t\tcloseModal('sendmail');\n\t\tprocess_worksheet_vw.run();\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "Patching WorkSheet_callSend",
+  "deleted": false,
+  "gitSyncId": "62d7105c4b3fcf0df1e0f316_62e8749917b5b5373d32a76b"
+}

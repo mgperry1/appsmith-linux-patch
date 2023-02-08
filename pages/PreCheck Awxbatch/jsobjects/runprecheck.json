@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "runprecheck",
+    "pageId": "PreCheck Awxbatch",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\n\tontested: async () => {\n\t\tstoreValue('precheckhost',data_table.triggeredRow.hostname);\n\t\tshowModal('RunPrecheck')\t\t\n\t},\n\trunit: async () => {\n\t closeModal('RunPrecheck')\t\t;\n   LinuxPrecheckHost.run();\n\t}\n\t\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "PreCheck Awxbatch_runprecheck",
+  "deleted": false,
+  "gitSyncId": "62d7105c4b3fcf0df1e0f316_62fa799446ac47549078c6e6"
+}
